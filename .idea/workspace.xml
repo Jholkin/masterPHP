@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c4e5a960-304a-444f-91fc-197b5e04cd84" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/aprendiendo-laravel/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/scrivo/highlight.php" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/aprendiendo-laravel/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1Q3kH2W9wKc973Gq88KVOvBDTDf" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/aprendiendo-php-poo/12-autoload/clases/misClases" />
+      <recent name="$PROJECT_DIR$/aprendiendo-php-poo/12-autoload/clases" />
+      <recent name="$PROJECT_DIR$/aprendiendo-php-poo/04-estaticas" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4e5a960-304a-444f-91fc-197b5e04cd84" name="Default Changelist" comment="" />
+      <created>1567006576026</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567006576026</updated>
+      <workItem from="1567006577769" duration="2610000" />
+      <workItem from="1567111660367" duration="2111000" />
+      <workItem from="1567384820190" duration="809000" />
+      <workItem from="1567437950218" duration="105000" />
+      <workItem from="1567463469210" duration="4212000" />
+      <workItem from="1567516357184" duration="26000" />
+      <workItem from="1567516421473" duration="140000" />
+      <workItem from="1567522325862" duration="94000" />
+      <workItem from="1567711636848" duration="87000" />
+      <workItem from="1567797167767" duration="3886000" />
+      <workItem from="1567809258387" duration="3219000" />
+      <workItem from="1567863830687" duration="3556000" />
+      <workItem from="1567881549283" duration="7971000" />
+      <workItem from="1567902474686" duration="10816000" />
+      <workItem from="1568068534231" duration="767000" />
+      <workItem from="1568207222534" duration="645000" />
+      <workItem from="1568218321836" duration="150000" />
+      <workItem from="1568408407900" duration="8324000" />
+      <workItem from="1568606287725" duration="56000" />
+      <workItem from="1568606454744" duration="292000" />
+      <workItem from="1569017827265" duration="445000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

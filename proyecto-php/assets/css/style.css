@@ -1,0 +1,26 @@
+/*GENERALES*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+body{
+    background: red;
+}
+
+/*CABECERA*/
+#cabecera{
+    width: 1250px;
+    height: auto;
+    background: transparent;
+    margin: 0px auto;
+    border: 1px solid black;
+}
