@@ -40,13 +40,14 @@
                 </li>
             </ul>
         </nav>
+        <div class="clearfix"></div>
     </header>
 
     <div id="container">
         <!-- Sidebar o Barra lateral -->
         <aside id="sidebar">
             <div id="login" class="block-aside">
-                <h3>Identificate</h3>
+                <h3>Inicio de sesión</h3>
                 <form action="login.php" method="post">
                     <label for="email">Email</label>
                     <input type="email" name="email">
@@ -75,8 +76,65 @@
         </aside>
 
         <!-- Contenido principal -->
+        <div id="principle">
+            <h1>Últimas entradas</h1>
+            <article class="input">
+                <a href="#">
+                <h2>Título de mi entrada</h2>
+                <p>Nulla sodales quis sapien vel efficitur. Pellentesque at leo justo. Sed
+                    dignissim aliquam est vel scelerisque. Aenean quam erat, iaculis sit amet
+                    porta ac, pretium blandit magna. Mauris convallis magna ex, eget facilisis
+                    eros consequat sed. Maecenas ligula mi, consectetur ut semper vitae, rhoncus
+                    at felis. Nulla maximus pharetra sem a iaculis.
+                </p>
+                </a>
+            </article>
+            <article class="input">
+                <a href="#">
+                <h2>Título de mi entrada</h2>
+                    <p>Nulla sodales quis sapien vel efficitur. Pellentesque at leo justo. Sed
+                        dignissim aliquam est vel scelerisque. Aenean quam erat, iaculis sit amet
+                        porta ac, pretium blandit magna. Mauris convallis magna ex, eget facilisis
+                        eros consequat sed. Maecenas ligula mi, consectetur ut semper vitae, rhoncus
+                        at felis. Nulla maximus pharetra sem a iaculis.
+                    </p>
+                </a>
+            </article>
+            <article class="input">
+                <a href="#">
+                <h2>Título de mi entrada</h2>
+                    <p>Nulla sodales quis sapien vel efficitur. Pellentesque at leo justo. Sed
+                        dignissim aliquam est vel scelerisque. Aenean quam erat, iaculis sit amet
+                        porta ac, pretium blandit magna. Mauris convallis magna ex, eget facilisis
+                        eros consequat sed. Maecenas ligula mi, consectetur ut semper vitae, rhoncus
+                        at felis. Nulla maximus pharetra sem a iaculis.
+                    </p>
+                </a>
+            </article>
+            <article class="input">
+                <a href="#">
+                <h2>Título de mi entrada</h2>
+                    <p>Nulla sodales quis sapien vel efficitur. Pellentesque at leo justo. Sed
+                        dignissim aliquam est vel scelerisque. Aenean quam erat, iaculis sit amet
+                        porta ac, pretium blandit magna. Mauris convallis magna ex, eget facilisis
+                        eros consequat sed. Maecenas ligula mi, consectetur ut semper vitae, rhoncus
+                        at felis. Nulla maximus pharetra sem a iaculis.
+                    </p>
+                </a>
+            </article>
+
+            <div id="view-all">
+                <a href="#">Ver todas las entradas</a>
+            </div>
+
+        </div>
+
+        <div class="clearfix"></div>
     </div>
 
     <!-- Pie de página -->
+    <footer id="footer">
+        <p>Desarrollado por Jhil Palacios &copy; 2019</p>
+    </footer>
 </body>
 </html>
