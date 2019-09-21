@@ -82,10 +82,7 @@
                 <a href="#">
                 <h2>Título de mi entrada</h2>
                 <p>Nulla sodales quis sapien vel efficitur. Pellentesque at leo justo. Sed
-                    dignissim aliquam est vel scelerisque. Aenean quam erat, iaculis sit amet
-                    porta ac, pretium blandit magna. Mauris convallis magna ex, eget facilisis
                     eros consequat sed. Maecenas ligula mi, consectetur ut semper vitae, rhoncus
-                    at felis. Nulla maximus pharetra sem a iaculis.
                 </p>
                 </a>
             </article>
@@ -93,10 +90,7 @@
                 <a href="#">
                 <h2>Título de mi entrada</h2>
                     <p>Nulla sodales quis sapien vel efficitur. Pellentesque at leo justo. Sed
-                        dignissim aliquam est vel scelerisque. Aenean quam erat, iaculis sit amet
-                        porta ac, pretium blandit magna. Mauris convallis magna ex, eget facilisis
                         eros consequat sed. Maecenas ligula mi, consectetur ut semper vitae, rhoncus
-                        at felis. Nulla maximus pharetra sem a iaculis.
                     </p>
                 </a>
             </article>
@@ -104,10 +98,7 @@
                 <a href="#">
                 <h2>Título de mi entrada</h2>
                     <p>Nulla sodales quis sapien vel efficitur. Pellentesque at leo justo. Sed
-                        dignissim aliquam est vel scelerisque. Aenean quam erat, iaculis sit amet
-                        porta ac, pretium blandit magna. Mauris convallis magna ex, eget facilisis
                         eros consequat sed. Maecenas ligula mi, consectetur ut semper vitae, rhoncus
-                        at felis. Nulla maximus pharetra sem a iaculis.
                     </p>
                 </a>
             </article>
@@ -115,10 +106,7 @@
                 <a href="#">
                 <h2>Título de mi entrada</h2>
                     <p>Nulla sodales quis sapien vel efficitur. Pellentesque at leo justo. Sed
-                        dignissim aliquam est vel scelerisque. Aenean quam erat, iaculis sit amet
-                        porta ac, pretium blandit magna. Mauris convallis magna ex, eget facilisis
                         eros consequat sed. Maecenas ligula mi, consectetur ut semper vitae, rhoncus
-                        at felis. Nulla maximus pharetra sem a iaculis.
                     </p>
                 </a>
             </article>
