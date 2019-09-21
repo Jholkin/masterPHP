@@ -2,8 +2,8 @@
 //connection with database
 $server = "localhost";
 $user   = "root";
-$password   =   "";
-$database   =   "blog";
+$password   =   "root";
+$database   =   "blog_in_php";
 
 $connect = mysqli_connect($server,$user,$password,$database);
 

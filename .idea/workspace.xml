@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c4e5a960-304a-444f-91fc-197b5e04cd84" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyecto-php/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto-php/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyecto-php/includes/conection.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto-php/includes/conection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyecto-php/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto-php/includes/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyecto-php/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto-php/includes/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyecto-php/includes/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto-php/includes/sidebar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proyecto-php/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto-php/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -176,7 +179,7 @@
       <workItem from="1568606287725" duration="56000" />
       <workItem from="1568606454744" duration="292000" />
       <workItem from="1569017827265" duration="9487000" />
-      <workItem from="1569087353615" duration="1260000" />
+      <workItem from="1569087353615" duration="2389000" />
     </task>
     <servers />
   </component>
