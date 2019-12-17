@@ -46,3 +46,4 @@ require_once 'conection.php';
     </nav>
     <div class="clearfix"></div>
 </header>
+<div id="container">

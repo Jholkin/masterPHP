@@ -1,4 +1,4 @@
-
+<?php require_once 'helpers.php'; ?>
 <!-- Sidebar o Barra lateral -->
 <aside id="sidebar">
     <div id="login" class="block-aside">
@@ -15,9 +15,21 @@
 
     <div id="register" class="block-aside">
         <h3>Registro</h3>
+
+        <!--Mostrar errores-->
+        <?php if (isset($_SESSION['complete'])): ?>
+            <div class="alert alert-exit">
+                <?= $_SESSION['complete'];?>
+            </div>
+        <?php elseif(isset($_SESSION['errors']['generic'])): ?>
+            <div class="alert alert-error">
+                <?= $_SESSION['errors']['generic'];?>
+            </div>
+        <?php endif; ?>
         <form action="register.php" method="post">
             <label for="name">Nombre</label>
             <input type="text" name="name">
+            <?php echo mostrarError($_SESSION['errors'], 'name'); ?>
             <label for="lastname">Apellidos</label>
             <input type="text" name="lastname">
             <label for="email">Email</label>

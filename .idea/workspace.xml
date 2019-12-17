@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4e5a960-304a-444f-91fc-197b5e04cd84" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto-php/includes/helpers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto-php/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/masterPHP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/masterPHP.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proyecto-php/includes/conection.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto-php/includes/conection.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proyecto-php/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto-php/includes/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proyecto-php/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto-php/includes/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proyecto-php/includes/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto-php/includes/sidebar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proyecto-php/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto-php/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyecto-php/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto-php/register.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +26,20 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -126,8 +146,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tiendaCamisetas" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Blade" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -179,7 +199,14 @@
       <workItem from="1568606287725" duration="56000" />
       <workItem from="1568606454744" duration="292000" />
       <workItem from="1569017827265" duration="9487000" />
-      <workItem from="1569087353615" duration="2389000" />
+      <workItem from="1569087353615" duration="7990000" />
+      <workItem from="1569173927254" duration="74000" />
+      <workItem from="1570223119136" duration="63000" />
+      <workItem from="1570223342595" duration="2197000" />
+      <workItem from="1570517474360" duration="39000" />
+      <workItem from="1570736942407" duration="6038000" />
+      <workItem from="1571058798482" duration="234000" />
+      <workItem from="1571734438106" duration="42000" />
     </task>
     <servers />
   </component>

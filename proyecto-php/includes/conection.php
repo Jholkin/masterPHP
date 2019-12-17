@@ -1,9 +1,9 @@
 <?php
 //connection with database
 $server = "localhost";
-$user   = "root";
-$password   =   "root";
-$database   =   "blog_in_php";
+$user = "dba";
+$password = "admin";
+$database = "blog";
 
 $connect = mysqli_connect($server,$user,$password,$database);
 

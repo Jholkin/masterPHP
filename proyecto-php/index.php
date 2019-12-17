@@ -1,7 +1,6 @@
 <?php require_once 'includes/header.php'; ?>
 
-    <div id="container">
-        <?php require_once 'includes/sidebar.php'; ?>
+<?php require_once 'includes/sidebar.php'; ?>
 
         <!-- Contenido principal -->
         <div id="principle">
@@ -44,9 +43,5 @@
             </div>
 
         </div>
-
-        <div class="clearfix"></div>
-    </div>
-    <!-- Fin del container -->
 
 <?php require_once 'includes/footer.php'; ?>
