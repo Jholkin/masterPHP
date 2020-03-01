@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4e5a960-304a-444f-91fc-197b5e04cd84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proyecto-php/includes/helpers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proyecto-php/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/masterPHP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/masterPHP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aprendiendo-php/13-includes/contacto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aprendiendo-php/13-includes/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aprendiendo-php/13-includes/partials/cabecera.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aprendiendo-php/13-includes/partials/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aprendiendo-php/13-includes/sobremi.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyecto-php/includes/conection.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto-php/includes/conection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyecto-php/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto-php/includes/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyecto-php/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto-php/includes/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyecto-php/includes/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto-php/includes/sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyecto-php/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto-php/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyecto-php/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto-php/register.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -146,7 +140,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tiendaCamisetas" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Blade" />
   </component>
   <component name="RecentsManager">
@@ -207,6 +201,7 @@
       <workItem from="1570736942407" duration="6038000" />
       <workItem from="1571058798482" duration="234000" />
       <workItem from="1571734438106" duration="42000" />
+      <workItem from="1583105408913" duration="1609000" />
     </task>
     <servers />
   </component>
