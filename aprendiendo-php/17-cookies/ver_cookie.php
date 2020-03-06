@@ -4,7 +4,7 @@
  * para mostrar la cookie se usa $_COOKIE, que es una variable superglobla y es un array asociativo
  */
 
-//primero comprabamos si existen cookies
+//primero comprobamos si existen cookies
 if (isset($_COOKIE['micookie'])) {
     echo "<h1>".$_COOKIE['micookie']."</h1>";
 } else {

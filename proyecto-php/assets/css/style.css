@@ -16,6 +16,19 @@ body{
     background: url(../img/fondo.jpg) #F4F4F4;
 }
 
+.alert {
+    padding: 5px;
+    font-size: 14px;
+    color: white;
+    background-color: green;
+    box-shadow: 0px 1px 3px #ccc;
+    margin-bottom: 10px;
+}
+
+.alert-error {
+    background-color: red;
+}
+
 /*CABECERA*/
 #header{
     width: 85%;
@@ -202,7 +215,7 @@ input[type="submit"]{
     background: linear-gradient(to bottom, #F9F9F9 0px, #E9E9E9 100%);
     border: 1px solid #C9C9C9;
     border-bottom: none;
-    border-right: 8px 8px 0px 0px;
+    border-right-width: 8px;
     color: #666;
     height: auto;
     padding: 15px;

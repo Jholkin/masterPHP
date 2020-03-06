@@ -5,7 +5,9 @@ if (isset($_POST['submit'])) {
     require_once 'includes/conection.php';
 
     // Iniciamos la sesión
-    session_start();
+    if (!isset($_SESSION)) {
+        session_start();
+    }
 
     // Recogemos los valores del formulario de registro
     $name = isset($_POST['name']) ? mysqli_real_escape_string($connect, $_POST['name']) : false;
@@ -43,7 +45,7 @@ if (isset($_POST['submit'])) {
 
         // insertamos datos  en la tabla usuarios
         $consulta = "INSERT INTO usuarios VALUES (null,'$name','$lastname','$email','$password_cifrada', CURRENT_DATE)";
-        var_dump($consulta);
+//        var_dump($consulta);
         $insert = mysqli_query($connect, $consulta);
 
         if ($insert) {

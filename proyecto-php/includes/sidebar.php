@@ -29,15 +29,22 @@
         <form action="register.php" method="post">
             <label for="name">Nombre</label>
             <input type="text" name="name">
-            <?php echo mostrarError($_SESSION['errors'], 'name'); ?>
+            <?php echo isset($_SESSION['errors']) ? mostrarError($_SESSION['errors'], 'name') : ''; ?>
+
             <label for="lastname">Apellidos</label>
             <input type="text" name="lastname">
+            <?php echo isset($_SESSION['errors']) ? mostrarError($_SESSION['errors'], 'lastname') : ''; ?>
+
             <label for="email">Email</label>
             <input type="email" name="email">
+            <?php echo isset($_SESSION['errors']) ? mostrarError($_SESSION['errors'], 'email') : ''; ?>
+
             <label for="password">Password</label>
             <input type="password" name="password">
+            <?php echo isset($_SESSION['errors']) ? mostrarError($_SESSION['errors'], 'password') : ''; ?>
 
             <input type="submit" name="submit" value="registrar">
         </form>
+        <?php borrarError(); ?>
     </div>
 </aside>

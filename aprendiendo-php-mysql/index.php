@@ -1,8 +1,8 @@
 <?php
 //conectar a la base de datos
-$conexion = mysqli_connect('localhost','root','root','php_mysql');
+$conexion = mysqli_connect('localhost','root','','phpmysql');
 
-//comprabar si la conexión es correcta
+//comprobar si la conexión es correcta
 if (mysqli_connect_errno()) {
     echo "La conexion a la base de datos MYSQL ha fallado".mysqli_connect_error();
 } else {
@@ -13,7 +13,8 @@ if (mysqli_connect_errno()) {
 mysqli_query($conexion,"SET NAMES 'utf8'");
 
 //consulta select desde php
-$resultado = mysqli_query($conexion, "SELECT * FROM nota");
+$sql = "SELECT * FROM notas";
+$resultado = mysqli_query($conexion, $sql);
 
 // $notas = mysqli_fetch_assoc($resultado);
 
@@ -21,18 +22,18 @@ $resultado = mysqli_query($conexion, "SELECT * FROM nota");
 
 //recorrer todos los valores recogidos de la base de datos
 while ($nota = mysqli_fetch_assoc($resultado)) {
-    echo "<h2>".$nota['titulo']."</h2>";
-    echo $nota['descripcion']."<br>";
+    echo "<h2>".$nota['title']."</h2>";
+    echo $nota['description']."<br>";
     echo $nota['color']."<br>";
 }
 
 //insertar datos en la bd desde php
-$sql = "INSERT INTO nota VALUES(null,'nota desde php','esto es una nota insertada desde php','verde')";
+$sql = "INSERT INTO notas VALUES(null,'nota desde php','esto es una nota insertada desde php','verde')";
 $query = mysqli_query($conexion,$sql);
 
 if ($query) {
     echo "la inserccion de datos se realizo correctamente";
 } else {
-    echo "error".mysqli_error($conexion);
+    echo "error: ".mysqli_error($conexion);
 }
 

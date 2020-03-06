@@ -3,6 +3,7 @@
  * Hacer una interfaz de usuario (formulario) con 2 inputs y 4 botones, uno para sumar
  * restar, dividir y multiplicar
  */
+
 $resultado = false;
 if (isset($_POST['numero1']) && isset($_POST['numero2']))
 {
