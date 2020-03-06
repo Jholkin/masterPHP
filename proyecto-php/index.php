@@ -5,38 +5,23 @@
         <!-- Contenido principal -->
         <div id="principle">
             <h1>Últimas entradas</h1>
+
+            <?php
+                $entradas = getEntradas($connect);
+                if (!empty($entradas)):
+                    while ($entrada = mysqli_fetch_assoc($entradas)):
+            ?>
             <article class="input">
                 <a href="#">
-                <h2>Título de mi entrada</h2>
-                <p>Nulla sodales quis sapien vel efficitur. Pellentesque at leo justo. Sed
-                    eros consequat sed. Maecenas ligula mi, consectetur ut semper vitae, rhoncus
-                </p>
+                    <h2><?= $entrada['titulo'] ?></h2>
+                    <span class="fecha"><?= $entrada['categoria'] . ' | ' . $entrada['fecha'] ?></span>
+                    <p> <?= substr($entrada['descripcion'], 0, 150) . "..." ?> </p>
                 </a>
             </article>
-            <article class="input">
-                <a href="#">
-                <h2>Título de mi entrada</h2>
-                    <p>Nulla sodales quis sapien vel efficitur. Pellentesque at leo justo. Sed
-                        eros consequat sed. Maecenas ligula mi, consectetur ut semper vitae, rhoncus
-                    </p>
-                </a>
-            </article>
-            <article class="input">
-                <a href="#">
-                <h2>Título de mi entrada</h2>
-                    <p>Nulla sodales quis sapien vel efficitur. Pellentesque at leo justo. Sed
-                        eros consequat sed. Maecenas ligula mi, consectetur ut semper vitae, rhoncus
-                    </p>
-                </a>
-            </article>
-            <article class="input">
-                <a href="#">
-                <h2>Título de mi entrada</h2>
-                    <p>Nulla sodales quis sapien vel efficitur. Pellentesque at leo justo. Sed
-                        eros consequat sed. Maecenas ligula mi, consectetur ut semper vitae, rhoncus
-                    </p>
-                </a>
-            </article>
+            <?php
+                    endwhile;
+                endif;
+            ?>
 
             <div id="view-all">
                 <a href="#">Ver todas las entradas</a>

@@ -1,5 +1,6 @@
 <?php
 require_once 'conection.php';
+require_once 'helpers.php';
 ?>
 
 <!DOCTYPE html>
@@ -28,15 +29,18 @@ require_once 'conection.php';
             <li>
                 <a href="index.php">Inicio</a>
             </li>
-            <li>
-                <a href="index.php">Enlace-1</a>
-            </li>
-            <li>
-                <a href="index.php">Enlace-2</a>
-            </li>
-            <li>
-                <a href="index.php">Enlace-3</a>
-            </li>
+                <?php
+                    $categorias = getCategories($connect);
+                    if(!empty($categorias)):
+                        while($categoria = mysqli_fetch_assoc($categorias)):
+                ?>
+                    <li>
+                        <a href="category.php?id=<?= $categoria['id'];?>"><?= $categoria['nombre']; ?></a>
+                    </li>
+                <?php
+                        endwhile;
+                    endif;
+                ?>
             <li>
                 <a href="index.php">Sobre mi</a>
             </li>
