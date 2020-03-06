@@ -1,8 +1,25 @@
 <?php require_once 'helpers.php'; ?>
 <!-- Sidebar o Barra lateral -->
 <aside id="sidebar">
+    <?php if(isset($_SESSION['login'])): ?>
+        <div id="user-logueado" class="block-aside">
+            <h3>Bienvenido, <?= $_SESSION['login']['nombre'] . " " . $_SESSION['login']['apellidos'] ?></h3>
+            <a href="logout.php" class="button button-orange">Crear entrada</a>
+            <a href="logout.php" class="button">Crear categoria</a>
+            <a href="logout.php" class="button button-green">Perfil</a>
+            <a href="logout.php" class="button button-red">Cerrar Sesion</a>
+        </div>
+    <?php endif; ?>
+
     <div id="login" class="block-aside">
         <h3>Inicio de sesión</h3>
+
+        <?php if(isset($_SESSION['login_failed'])): ?>
+            <div class="alert alert-error">
+                <?php $_SESSION['login_failed'] ?>
+            </div>
+        <?php endif; ?>
+
         <form action="login.php" method="post">
             <label for="email">Email</label>
             <input type="email" name="email">

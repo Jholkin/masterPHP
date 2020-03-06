@@ -1,8 +1,8 @@
 /*GENERALES*/
 
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
 }
@@ -21,7 +21,7 @@ body{
     font-size: 14px;
     color: white;
     background-color: green;
-    box-shadow: 0px 1px 3px #ccc;
+    box-shadow: 0 1px 3px #ccc;
     margin-bottom: 10px;
 }
 
@@ -34,7 +34,7 @@ body{
     width: 85%;
     height: auto;
     background: transparent;
-    margin: 0px auto;
+    margin: 0 auto;
     /*border: 1px solid black;*/
 }
 
@@ -50,7 +50,7 @@ body{
     font-size: 40px;
     letter-spacing: 2px;
     color: #2979CD;
-    text-shadow: 0px 0px 0px black, 1px 1px 0px black, 2px 2px 0px black;
+    text-shadow: 0 0 0 black, 1px 1px 0 black, 2px 2px 0 black;
     transition: all 500ms;
     line-height: 80px;
     margin-left: 10px;
@@ -58,7 +58,7 @@ body{
 
 #logo a:hover{
     cursor: pointer;
-    text-shadow: 0px 0px 0px black, -1px -1px 0px black, -2px -2px 0px black;
+    text-shadow: 0 0 0 black, -1px -1px 0 black, -2px -2px 0 black;
 }
 
 /*MENU*/
@@ -69,7 +69,7 @@ body{
     background: linear-gradient(to bottom, #F9F9F9 0px, #E9E9E9 100%);
     border: 1px solid #C9C9C9;
     border-radius: 8px;
-    box-shadow: 0px 1px 1px #ccc;
+    box-shadow: 0 1px 1px #ccc;
     overflow: hidden;
 }
 
@@ -92,7 +92,7 @@ body{
 }
 
 #nav ul li a:hover{
-    background: linear-gradient(to bottom, #F2F2F2 0px, #DAD9D4 100%);
+    background: linear-gradient(to bottom, #F2F2F2 0, #DAD9D4 100%);
 }
 
 /*CONTENIDO*/
@@ -100,7 +100,7 @@ body{
     width: 85%;
     height: auto;
     /*min-height: auto;*/
-    margin: 0px auto;
+    margin: 0 auto;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -115,11 +115,11 @@ body{
 .block-aside{
     display: block;
     width: 90%;
-    margin: 0px auto;
+    margin: 0 auto;
     margin-bottom: 35px;
     background: white;
     padding: 15px;
-    box-shadow: 0px 0px 1px rgba(0,0,0,0.3), 0px 3px 7px rgba(0,0,0,0.3), 0px 0px 1px #FFFFFF inset, 0px -3px 2px rgba(0,0,0,0.25) inset;
+    box-shadow: 0 0 1px rgba(0,0,0,0.3), 0 3px 7px rgba(0,0,0,0.3), 0 0 1px #FFFFFF inset, 0 -3px 2px rgba(0,0,0,0.25) inset;
 }
 
 .block-aside h3{
@@ -144,7 +144,8 @@ input[type="password"]{
 }
 
 input[type="button"],
-input[type="submit"]{
+input[type="submit"],
+.button{
     margin-top: 5px;
     margin-bottom: 5px;
     display: block;
@@ -156,6 +157,23 @@ input[type="submit"]{
     padding: 7px;
 }
 
+.button {
+    text-align: center;
+    width: 150px;
+}
+
+.button-orange {
+    background-color: #ff9001;
+}
+
+.button-green {
+    background-color: green;
+}
+
+.button-red {
+    background-color: red;
+}
+
 /*PRINCIPAL*/
 #principle{
     float: left;
@@ -163,7 +181,7 @@ input[type="submit"]{
     min-height: 570px;
     background: white;
     border-right: 5px;
-    box-shadow: 0px 0px 5px #ccc;
+    box-shadow: 0 0 5px #ccc;
     margin-left: 20px;
     padding: 20px;
     overflow: hidden;
@@ -203,7 +221,7 @@ input[type="submit"]{
     border: 1px solid #156785;
     cursor: pointer;
     width: 215px;
-    margin: 0px auto;
+    margin: 0 auto;
     margin-top: 50px;
 }
 
@@ -211,7 +229,7 @@ input[type="submit"]{
 #footer{
     width: 83%;
     clear: both;
-    margin: 0px auto;
+    margin: 0 auto;
     background: linear-gradient(to bottom, #F9F9F9 0px, #E9E9E9 100%);
     border: 1px solid #C9C9C9;
     border-bottom: none;

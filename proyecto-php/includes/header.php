@@ -8,6 +8,7 @@ require_once 'conection.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="./gamepad.png">
     <title>Blog de Videojuegos</title>
 
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
