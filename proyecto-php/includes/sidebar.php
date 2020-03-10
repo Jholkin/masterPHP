@@ -3,9 +3,9 @@
     <?php if(isset($_SESSION['login'])): ?>
         <div id="user-logueado" class="block-aside">
             <h3>Bienvenido, <?= $_SESSION['login']['nombre'] . " " . $_SESSION['login']['apellidos'] ?></h3>
-            <a href="logout.php" class="button button-orange">Crear entrada</a>
-            <a href="logout.php" class="button">Crear categoria</a>
-            <a href="logout.php" class="button button-green">Perfil</a>
+            <a href="crear-entrada.php" class="button button-orange">Crear entrada</a>
+            <a href="crear-categoria.php" class="button">Crear categoria</a>
+            <a href="mis-datos.php" class="button button-green">Perfil</a>
             <a href="logout.php" class="button button-red">Cerrar Sesion</a>
         </div>
     <?php endif; ?>

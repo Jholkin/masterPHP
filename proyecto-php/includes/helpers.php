@@ -15,12 +15,17 @@ function borrarError()
     $borrado = false;
     if (isset($_SESSION['errors'])) {
         $_SESSION['errors'] = null;
-        $borrado = session_unset();
+        $borrado = true;
+    }
+
+    if (isset($_SESSION['errores_entrada'])) {
+        $_SESSION['errores_entrada'] = null;
+        $borrado = true;
     }
 
     if (isset($_SESSION['complete'])) {
         $_SESSION['complete'] = null;
-        $borrado = session_unset();
+        $borrado = true;
     }
     return $borrado;
 }
