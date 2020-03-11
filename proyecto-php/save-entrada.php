@@ -26,7 +26,12 @@ if (isset($_POST)) {
     }
 
     if (count($errors) == 0) {
-        $sql = "INSERT INTO entradas VALUES (null,'$user','$categoria','$nombre','$descripcion', CURDATE());";
+        if (isset($_GET['editar'])) {
+            $entrada_id = $_GET['editar'];
+            $sql = "UPDATE entradas SET titulo = '$nombre', descripcion = '$descripcion', categoria_id = '$categoria' WHERE id = '$entrada_id' AND usuario_id = '$user';";
+        }else {
+            $sql = "INSERT INTO entradas VALUES (null,'$user','$categoria','$nombre','$descripcion', CURDATE());";
+        }
 
         $guardar = mysqli_query($connect, $sql);
 

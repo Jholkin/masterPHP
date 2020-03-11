@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4e5a960-304a-444f-91fc-197b5e04cd84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/proyecto-php/crear-categoria.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proyecto-php/crear-entrada.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proyecto-php/includes/redirect.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proyecto-php/mis-datos.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proyecto-php/save-category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proyecto-php/save-entrada.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proyecto-php/update-user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto-php/category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto-php/delete-entrada.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto-php/edit-entrada.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto-php/entrada.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proyecto-php/entradas.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyecto-php/ea-sports.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyecto-php/gamepad.png" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto-php/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyecto-php/includes/conection.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto-php/includes/conection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyecto-php/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto-php/includes/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proyecto-php/includes/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto-php/includes/helpers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyecto-php/includes/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto-php/includes/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyecto-php/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto-php/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyecto-php/save-entrada.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto-php/save-entrada.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyecto-php/update-user.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto-php/update-user.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -216,7 +212,7 @@
       <workItem from="1583527430729" duration="4241000" />
       <workItem from="1583541334193" duration="3911000" />
       <workItem from="1583687396768" duration="2206000" />
-      <workItem from="1583879543843" duration="2158000" />
+      <workItem from="1583879543843" duration="9675000" />
     </task>
     <task id="LOCAL-00001" summary="se agrega la clase de includes y require">
       <created>1583107179561</created>
@@ -246,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583531655567</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="actualiza los datos (perfil) de los usuarios">
+      <created>1583881896945</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583881896946</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +273,7 @@
     <MESSAGE value="registro de clientes funcionando correctamente" />
     <MESSAGE value="favicon agregado, error al mostrar el mensaje de error del login" />
     <MESSAGE value="Listado de categorias, listado de entradas y ocultación de los formularios login y registro si ya se ha iniciado sesion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Listado de categorias, listado de entradas y ocultación de los formularios login y registro si ya se ha iniciado sesion" />
+    <MESSAGE value="actualiza los datos (perfil) de los usuarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="actualiza los datos (perfil) de los usuarios" />
   </component>
 </project>

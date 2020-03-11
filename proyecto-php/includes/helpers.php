@@ -30,7 +30,8 @@ function borrarError()
     return $borrado;
 }
 
-function getCategories($connect) {
+function getCategories($connect)
+{
     $sql = "SELECT * FROM categorias ORDER BY id ASC;";
     $categorias = mysqli_query($connect, $sql);
 
@@ -42,15 +43,52 @@ function getCategories($connect) {
     return $result;
 }
 
-function getEntradas($connect) {
-    $sql = "SELECT e.*, c.nombre AS categoria  FROM entradas e INNER JOIN categorias c ON e.categoria_id = c.id ORDER BY e.id DESC";
+function getCategory($connect, $id)
+{
+    $sql = "SELECT * FROM categorias WHERE id = '$id';";
+    $categoria = mysqli_query($connect, $sql);
+
+    $result = array();
+    if ($categoria && mysqli_num_rows($categoria) >=1) {
+        $result = mysqli_fetch_assoc($categoria);
+    }
+
+    return $result;
+}
+
+function getEntradas($connect, $limit = null, $category = null)
+{
+    $sql = "SELECT e.*, c.nombre AS categoria  FROM entradas e INNER JOIN categorias c ON e.categoria_id = c.id ";
+
+    if (!empty($category)) {
+        $sql .= " WHERE e.categoria_id = '$category'";
+    }
+
+    $sql .= " ORDER BY e.id DESC";
+
+    if ($limit) {
+        $sql .= " LIMIT 4";
+    }
+
     $entradas = mysqli_query($connect, $sql);
-//    var_dump($entradas);
-//    die();
 
     $result = array();
     if ($entradas && mysqli_num_rows($entradas) > 0) {
         $result = $entradas;
+    }
+
+    return $result;
+}
+
+function getEntrada($connect, $id)
+{
+    $sql = "SELECT e.*, c.nombre AS 'categoria' FROM entradas e INNER JOIN categorias c ON e.categoria_id = c.id WHERE e.id = '$id';";
+    $entrada = mysqli_query($connect,$sql);
+
+    $result = array();
+
+    if ($entrada && mysqli_num_rows($entrada) >= 1) {
+        $result = mysqli_fetch_assoc($entrada);
     }
 
     return $result;

@@ -29,20 +29,29 @@ if (isset($_POST['submit'])) {
     }
 
     if (count($errors) == 0) { //si no se detectó ningún error se procede a guardar los datos
+        $current_user = $_SESSION['login'];
+//        Comprobar si el email ya existe
+        $sql = "SELECT email FROM usuarios WHERE email = '$email';";
 
-        // Actualizamos datos  en la tabla usuarios
-        $user = $_SESSION['login'];
-        $consulta = "UPDATE usuarios SET nombre = '$name', apellidos = '$lastname', email = '$email', fecha = CURRENT_DATE WHERE id = '{$user['id']}';";
+        $data = mysqli_query($connect, $sql);
+        $user = mysqli_fetch_assoc($data);
 
-        $insert = mysqli_query($connect, $consulta);
+        if ($user['id'] == $current_user['id'] || empty($user)) {
+            // Actualizamos datos  en la tabla usuarios
+            $consulta = "UPDATE usuarios SET nombre = '$name', apellidos = '$lastname', email = '$email', fecha = CURRENT_DATE WHERE id = '{$user['id']}';";
 
-        if ($insert) {
-            $_SESSION['login']['nombre'] = $name;
-            $_SESSION['login']['apellidos'] = $lastname;
-            $_SESSION['login']['email'] = $email;
-            $_SESSION['complete'] = "Datos actualizados con éxito";
+            $insert = mysqli_query($connect, $consulta);
+
+            if ($insert) {
+                $_SESSION['login']['nombre'] = $name;
+                $_SESSION['login']['apellidos'] = $lastname;
+                $_SESSION['login']['email'] = $email;
+                $_SESSION['complete'] = "Datos actualizados con éxito";
+            } else {
+                $_SESSION['errors']['generic'] = "Fallo al actualizar el usuario";
+            }
         } else {
-            $_SESSION['errors']['generic'] = "Fallo al actualizar el usuario";
+            $_SESSION['errors']['generic'] = "El usuario ya existe";
         }
     } else {
         $_SESSION['errors'] = $errors;

@@ -1,5 +1,4 @@
 <?php require_once 'includes/header.php'; ?>
-
 <?php require_once 'includes/sidebar.php'; ?>
 
         <!-- Contenido principal -->
@@ -7,12 +6,12 @@
             <h1>Últimas entradas</h1>
 
             <?php
-                $entradas = getEntradas($connect);
+                $entradas = getEntradas($connect, 4);
                 if (!empty($entradas)):
                     while ($entrada = mysqli_fetch_assoc($entradas)):
             ?>
             <article class="input">
-                <a href="#">
+                <a href="entrada.php?id=<?= $entrada['id'] ?>">
                     <h2><?= $entrada['titulo'] ?></h2>
                     <span class="fecha"><?= $entrada['categoria'] . ' | ' . $entrada['fecha'] ?></span>
                     <p> <?= substr($entrada['descripcion'], 0, 150) . "..." ?> </p>
@@ -24,7 +23,7 @@
             ?>
 
             <div id="view-all">
-                <a href="#">Ver todas las entradas</a>
+                <a href="entradas.php">Ver todas las entradas</a>
             </div>
 
         </div>
