@@ -56,12 +56,16 @@ function getCategory($connect, $id)
     return $result;
 }
 
-function getEntradas($connect, $limit = null, $category = null)
+function getEntradas($connect, $limit = null, $category = null, $busqueda = null)
 {
     $sql = "SELECT e.*, c.nombre AS categoria  FROM entradas e INNER JOIN categorias c ON e.categoria_id = c.id ";
 
     if (!empty($category)) {
         $sql .= " WHERE e.categoria_id = '$category'";
+    }
+
+    if (!empty($busqueda)) {
+        $sql .= " WHERE e.titulo LIKE '%$busqueda%'";
     }
 
     $sql .= " ORDER BY e.id DESC";
