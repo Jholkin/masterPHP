@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4e5a960-304a-444f-91fc-197b5e04cd84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/proyecto-php/buscar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyecto-php/includes/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto-php/includes/helpers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proyecto-php/includes/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto-php/includes/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyecto-php/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto-php/assets/css/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -139,7 +137,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -206,7 +204,9 @@
       <workItem from="1583527430729" duration="4241000" />
       <workItem from="1583541334193" duration="3911000" />
       <workItem from="1583687396768" duration="2206000" />
-      <workItem from="1583879543843" duration="11006000" />
+      <workItem from="1583879543843" duration="11166000" />
+      <workItem from="1584051211464" duration="3085000" />
+      <workItem from="1584054582986" duration="1185000" />
     </task>
     <task id="LOCAL-00001" summary="se agrega la clase de includes y require">
       <created>1583107179561</created>
@@ -250,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583909363409</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="busqueda de entradas implementada">
+      <created>1583910593375</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583910593375</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,6 +283,7 @@
     <MESSAGE value="Listado de categorias, listado de entradas y ocultación de los formularios login y registro si ya se ha iniciado sesion" />
     <MESSAGE value="actualiza los datos (perfil) de los usuarios" />
     <MESSAGE value="Editar y eliminar entradas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Editar y eliminar entradas" />
+    <MESSAGE value="busqueda de entradas implementada" />
+    <option name="LAST_COMMIT_MESSAGE" value="busqueda de entradas implementada" />
   </component>
 </project>
