@@ -1,5 +1,10 @@
 <h1>List of Books</h1>
 <a href="{{ action('BookController@create') }}">Agregar Libro</a>
+
+@if (session('status'))
+    <small style="background: gray" >{{session('status')}}</small>
+@endif
+
 <ul>
     @foreach($books as $book)
         <li>

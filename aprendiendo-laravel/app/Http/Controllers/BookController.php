@@ -42,4 +42,31 @@ class BookController extends Controller
 
         return redirect()->action('BookController@index');
     }
+
+    public function delete($id)
+    {
+        $book = DB::table('books')->where('id', $id)->delete();
+
+        return redirect()->action('BookController@index')->with('status', 'book eliminado correctamente');
+    }
+
+    public function edit($id)
+    {
+        $book = DB::table('books')->where('id',$id)->first();
+
+        return view('book.create', [
+            'book' => $book
+        ]);
+    }
+
+    public function update(Request $request)
+    {
+        $id = $request->input('id');
+        $book = DB::table('books')->where('id', $id)->update(array(
+            'title' => $request->input('title'),
+            'doi' => $request->input('doi')
+        ));
+
+        return redirect()->action('BookController@index')->with('status', 'book actualizado correctamente');
+    }
 }
