@@ -50,7 +50,7 @@ class UserController extends Controller
 
         $user->update();
 
-        return redirect()->route('config')->with(['mensaje' => 'usuario actualizado correctamente']);
+        return redirect()->route('config')->with(['message' => 'usuario actualizado correctamente']);
     }
 
     public function getImage($filename)
